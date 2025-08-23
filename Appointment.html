@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blissle | Keepsakes & Memories</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Calibri', sans-serif;
+        }
+        header {
+            background-color: #a7c7e7; /* Pastel blue */
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+        }
+        .logo-container img {
+            width: 300px; /* Doubled logo size */
+            height: auto;
+        }
+        .contact-info {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            text-align: right;
+            font-size: 14px;
+            color: white;
+        }
+        nav {
+            display: flex;
+            gap: 30px; /* Double spacing between links */
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .background-section {
+            width: 100%;
+            height: 800px; /* Adjust height as needed */
+            background-image: url('Lassi.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        footer {
+            background-color: #f8b195;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo-container">
+        <img src="Channel-Picture/blissle.png" alt="Blissle Logo">
+    </div>
+
+    <div class="contact-info">
+        <div>📞 9133229666 ✉️ info.blissle@gmail.com</div>
+    </div>
+
+    <nav>
+		<a href="index.html">Home</a>
+		<a href="aboutus.html">About Us</a>
+		<a href="styles.html">Styles</a>
+		<a href="gallery.html">Gallery</a>
+		<a href="contact.html">Contact</a>
+		<a href="appointment.html">Book an Appointment</a>
+    </nav>
+
+    
+</header>
+<head>
+    <meta charset="UTF-8">
+    <title>Book Appointment | Blissle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Include header from index.html -->
+    <header>
+        <!-- Copy your header content from index.html here -->
+        <!-- Or use server-side includes or JavaScript if dynamic -->
+    </header>
+
+    <main class="appointment-form-container">
+        <h1>Book an Appointment with Blissle</h1>
+        <p>Please drop us an email or WhatsApp message with the following details:</p>
+
+        <form action="mailto:info.blissle@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="Name" required>
+
+            <label for="mobile">Mobile:</label>
+            <input type="tel" id="mobile" name="Mobile" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="Email" required>
+
+            <label for="babyage">Baby Age:</label>
+            <input type="text" id="babyage" name="Baby Age" required>
+
+            <label for="frame">Type of Frame:</label>
+            <input type="text" id="frame" name="Type of Frame" required>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="Location" required>
+
+            <button type="submit">Send Appointment Details</button>
+        </form>
+
+        <p>Alternatively, You can also WhatsApp/gmail us directly at <strong>9133229666</strong> , <strong>info.blissle@gmail.com</strong> with the above details.</p>
+    </main>
+
+    <!-- Include footer from index.html -->
+    <footer>
+        <!-- Copy your footer content from index.html here -->
+    </footer>
+
+</body>
+</html>

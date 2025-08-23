@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Styles | Blissle</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Calibri', sans-serif;
+            background-color: #f0f8ff;
+        }
+        header {
+            background-color: #a7c7e7;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+        }
+        .logo-container img {
+            width: 300px;
+            height: auto;
+        }
+        .contact-info {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            text-align: right;
+            font-size: 14px;
+            color: white;
+        }
+        nav {
+            display: flex;
+            gap: 30px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            padding: 40px 60px;
+            text-align: center;
+        }
+        .style-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .style-item {
+            background-color: white;
+            padding: 15px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .style-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .style-item p {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #f8b195;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo-container">
+        <img src="Channel-Picture/blissle.png" alt="Blissle Logo">
+    </div>
+
+    <div class="contact-info">
+        <div>📞 9133229666 ✉️ info.blissle@gmail.com</div>
+    </div>
+
+    <nav>
+		<a href="index.html">Home</a>
+		<a href="aboutus.html">About Us</a>
+		<a href="styles.html">Styles</a>
+		<a href="gallery.html">Gallery</a>
+		<a href="contact.html">Contact</a>
+		<a href="appointment.html">Book an Appointment</a>
+    </nav>
+</header>
+
+<div class="content">
+    <h1>Our Frame Styles</h1>
+    <p>Select from our unique range of frame styles to make your keepsake truly personal.</p>
+
+    <div class="style-grid">
+        <div class="style-item">
+            <img src="Channel-Picture/2 hands.jpg" alt="Baby-2 Hands">
+            <p>Classic Frame</p>
+			<i>Prices start from ₹5000 for NewBorn</i>
+        </div>
+	<div class="style-item">
+            <img src="Channel-Picture/1hand1feetphoto.jpg" alt="Baby-1Hand1Feet&Photo">
+            <p>Classic Frame</p>
+			<i>Prices start from ₹7000 for NewBorn</i>
+        </div>
+        <div class="style-item">
+            <img src="Channel-Picture/2 hand 2 feet.jpg" alt="Baby-2Hand&2Feet">
+            <p>Antique Frame</p>
+			<i>Prices start from ₹10000 for NewBorn</i>
+        </div>
+	<div class="style-item">
+            <img src="Channel-Picture/2hand2feet+Photo.jpg" alt="Baby-2Hand2Feet&Photo">
+            <p>Triple Box Frame</p>
+			<i>Prices start from ₹12000 for NewBorn</i>
+        </div>
+        <div class="style-item">
+            <img src="Channel-Picture/parents and baby.jpg" alt="BabyParents&Photo">
+            <p>Vintage Frame</p>
+			<i>Prices start from ₹25000 for NewBorn</i>
+        </div>
+	<div class="style-item">
+            <img src="Channel-Picture/Siblings Frame.jpg" alt="Siblings-Photo">
+            <p>Siblings Double Box Frame</p>
+			<i>Prices start from ₹15000 for NewBorn + 5 Year sibling</i>
+        </div>
+	<div class="style-item">
+            <img src="Channel-Picture/Couple.jpg" alt="Couple Cast">
+            <p>Couple Cast</p>
+			<i>Prices start from ₹8000 for Couple</i>
+        </div>
+	<div class="style-item">
+            <img src="Channel-Picture/Twins.jpeg" alt="TwinBaby-2Hand2Feet&Photo">
+            <p>Twins Triple Box Frame</p>
+			<i>Prices start from ₹20000 for NewBorn</i>
+		</div>
+	<div class="style-item">
+            <img src="Channel-Picture/Custom.jpg" alt="Photo+feet+cast">
+            <p>Custom Frame</p>
+			<i>Prices start from ₹12000 for NewBorn</i>
+		</div>
+	<div class="style-item">
+            <img src="Channel-Picture/siblings.jpg" alt="statue">
+            <p>Siblings Statue</p>
+			<i>Prices start from ₹6500 for NewBorn + Sibling</i>
+		</div>
+	<div class="style-item">
+            <img src="Channel-Picture/pencilart.jpg" alt="ArtFrame">
+            <p>Pencil Art</p>
+			<i>Contact for Prices</i>
+		</div>
+        <!-- Add more frames as needed -->
+    </div>
+</div>
+
+<footer>
+    &copy; 2025 Blissle. All rights reserved.
+</footer>
+
+</body>
+</html>
