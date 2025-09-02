@@ -79,6 +79,36 @@
       border-radius: 8px;
     }
 
+    /* Updated style grid for separating portrait and landscape */
+    .style-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      margin-top: 30px;
+    }
+
+    .portrait-grid, .landscape-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .portrait-grid img, .landscape-grid img {
+      width: 100%;
+      height: auto;
+      max-height: 300px;
+      object-fit: contain;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      transition: transform 0.2s ease-in-out;
+      background: #fff;
+      padding: 5px;
+    }
+
+    .portrait-grid img:hover, .landscape-grid img:hover {
+      transform: scale(1.05);
+    }
+
     .upload-section {
       margin-top: 30px;
       padding: 20px;
@@ -114,9 +144,10 @@
 
   <nav>
     <a href="index.html">Home</a>
-    <a href="aboutus.html">About Me</a>
+    <a href="aboutme.html">About Me</a>
     <a href="styles.html">Styles</a>
     <a href="gallery.html">Gallery</a>
+	<a href="Customerfeedback.html">Feedback</a>
     <a href="contactus.html">Contact Us</a>
     <a href="enquiry.html">Enquiry</a>
     </nav>
@@ -125,57 +156,37 @@
 <div class="content">
   <h1>Gallery</h1>
   <p>Explore our memorable keepsakes in photo and video form.</p>
-	<div class="style-grid">
-        <div class="style-item">
-            <img src="Channel-Picture/2 hands.jpg">
+  
+  <h2>Images</h2>
+  <div class="portrait-grid">
+            <img src="Channel-Picture/2 hands.png">
+            <img src="Channel-Picture/1hand1feetphoto.png">
+            <img src="Channel-Picture/parents and baby.png">
+            <img src="Channel-Picture/Couple.png">
+        
+            <img src="Channel-Picture/Omnith.png">
             
-            <img src="Channel-Picture/1hand1feetphoto.jpg">
-            
-            <img src="Channel-Picture/2 hand 2 feet.jpg">
-            
-            <img src="Channel-Picture/2hand2feet+Photo.jpg">
-            
-            <img src="Channel-Picture/parents and baby.jpg">
-            
-	        <img src="Channel-Picture/Siblings Frame.jpg">
-            
-            <img src="Channel-Picture/Couple.jpg">
-            
-            <img src="Channel-Picture/Twins.jpeg">
-            
-            <img src="Channel-Picture/Custom.jpg">
-            
-            <img src="Channel-Picture/siblings.jpg">
-            
-            <img src="Channel-Picture/pencilart.jpg">
-            
-            <img src="Channel-Picture/Caligraphy.jpg">
-			
-			<img src="Channel-Picture/Anika.png">
-			
-			<img src="Channel-Picture/Om.png">
-			
-			<img src="Channel-Picture/Omnith.png">
-			
-			<img src="Channel-Picture/IshanVihan.png">
-			
-			<img src="Channel-Picture/SoumyaRaghu.png">
-			
-			<img src="Channel-Picture/Kiansh.png">
-			
-			<img src="Channel-Picture/Nyra.png">
-			
-			<img src="Channel-Picture/Mrinda.png">
-			
-			<img src="Channel-Picture/Jeykrith.png">
-			
+            <img src="Channel-Picture/SoumyaRaghu.png">
+            <img src="Channel-Picture/Kiansh.png">
+            <img src="Channel-Picture/2hand2feet+Photo.png">
+            <img src="Channel-Picture/Jeykrith.png">
+			<img src="Channel-Picture/2 hand 2 feet.png">
+			<img src="Channel-Picture/siblings.png">
+            <img src="Channel-Picture/Jaanu.png">
 			<img src="Channel-Picture/family.png">
-			
-			<img src="Channel-Picture/Jaanu.png">
-						          
-		</div>
-        <!-- Add more frames as needed -->
-    </div>
+			<img src="Channel-Picture/Nyra.png">
+			<img src="Channel-Picture/Custom.png">
+            <img src="Channel-Picture/Mrinda.png">
+			<img src="Channel-Picture/Calligraphy.jpg">
+			<img src="Channel-Picture/Siblings Frame.png">
+			<img src="Channel-Picture/Twins.png">
+			<img src="Channel-Picture/Anika.png">
+            <img src="Channel-Picture/Om.png">
+			<img src="Channel-Picture/IshanVihan.png">
+            <img src="Channel-Picture/pencilart.png">
+            
+            
+  </div>
 </div>
 
 <footer>
@@ -184,5 +195,3 @@
 
 </body>
 </html>
-
-
