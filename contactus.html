@@ -4,9 +4,64 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact | Blissle</title>
-  <link rel="stylesheet" href="common.css">
   <style>
-    /* Page-specific styles */
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      font-family: 'Calibri', sans-serif;
+      background-color: #f0f8ff;
+    }
+
+    header {
+      background-color: #a7c7e7;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      flex-wrap: wrap;
+    }
+
+    .logo-container img {
+      width: 300px;
+      height: auto;
+    }
+
+    .contact-info {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      text-align: right;
+      font-size: 14px;
+      color: white;
+    }
+
+    nav {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .content {
+      padding: 40px 60px;
+      text-align: center;
+      flex: 1; /* pushes footer down */
+    }
+
     .contact-details {
       font-size: 18px;
       margin-bottom: 30px;
@@ -49,6 +104,14 @@
     .note-box button:hover {
       background-color: #8bb0d6;
     }
+
+    footer {
+      background-color: #F07CAC;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      width: 100%;
+    }
   </style>
 </head>
 <body>
@@ -67,7 +130,7 @@
     <a href="aboutme.html">About Me</a>
     <a href="styles.html">Styles</a>
     <a href="gallery.html">Gallery</a>
-    <a href="Customerfeedback.html">Feedback</a>
+	<a href="Customerfeedback.html">Feedback</a>
     <a href="contactus.html">Contact Us</a>
     <a href="enquiry.html">Enquiry</a>
   </nav>
@@ -103,6 +166,7 @@
     transition: background-color 0.3s ease;
   ">Submit</button>
 </form>
+
   </div>
 </div>
 
@@ -111,4 +175,4 @@
 </footer>
 
 </body>
-</html>\
+</html>
